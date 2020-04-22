@@ -1,0 +1,11 @@
+# Site settings
+name: Lens template with Jekyll
+
+# Build settings
+markdown: kramdown
+
+# Theme settings
+compress_html:
+  comments: ["<!-- ", " -->"]
+  clippings: all
+  endings: all
