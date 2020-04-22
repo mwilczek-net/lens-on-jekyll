@@ -1,5 +1,7 @@
 # Site settings
+title: Lens by HTML5 UP | Jekyll automation by mwilczek-net.github.io
 name: Lens template with Jekyll
+description: Lens template build powerred with Jekyll engine
 
 # Build settings
 markdown: kramdown
@@ -9,3 +11,9 @@ compress_html:
   comments: ["<!-- ", " -->"]
   clippings: all
   endings: all
+
+# Host domain
+url: "https://mwilczek-net.github.io/"
+
+# From domain root
+baseurl: "/lens-on-jekyll"
