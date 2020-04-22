@@ -949,7 +949,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright li {
-				display: inline-block;
+				display: block;
 				font-size: 0.8em;
 				margin-left: 0.35em;
 				padding: 0;
