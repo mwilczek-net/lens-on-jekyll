@@ -4,6 +4,11 @@ name: Lens template with Jekyll
 description: Lens template build powerred with Jekyll engine
 defaultSocialMediaImage:
 
+socialMedia:
+  GitHub:
+    url: "https://mwilczek-net.github.io/"
+    icon: "brands fa-github"
+
 images:
 
 # Build settings
@@ -16,7 +21,7 @@ compress_html:
   endings: all
 
 # Host domain
-url: "https://mwilczek-net.github.io/"
+url: "https://mwilczek-net.github.io"
 
 # URL from domain root
 baseurl: "/lens-on-jekyll"
