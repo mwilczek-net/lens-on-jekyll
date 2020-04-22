@@ -5,9 +5,22 @@ description: Lens template build powerred with Jekyll engine
 defaultSocialMediaImage:
 
 socialMedia:
+  Twitter:
+    url: "#"
+    icon: "brands fa-twitter"
+  Instagram:
+    url: "#"
+    icon: "brands fa-instagram"
   GitHub:
     url: "https://mwilczek-net.github.io/"
     icon: "brands fa-github"
+  Email:
+    url: "#"
+    icon: "fa-envelope"
+  Web:
+    url: "http://mwilczek.net"
+    icon: "solid fa-globe"
+
 
 images:
 
