@@ -53,12 +53,14 @@
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
   <body class="is-preload-0 is-preload-1 is-preload-2">
-    {{ content }}
-  <!-- Scripts -->
-  <script src="{{ "assets/js/jquery.min.js" | relative_url }}"></script>
-  <script src="{{ "assets/js/browser.min.js" | relative_url }}"></script>
-  <script src="{{ "assets/js/breakpoints.min.js" | relative_url }}"></script>
-  <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+    <div id="main">
+      {{ content }}
+    </div>
+    <!-- Scripts -->
+    <script src="{{ "assets/js/jquery.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/browser.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/breakpoints.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
 
   </body>
 </html>
