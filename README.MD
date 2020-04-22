@@ -2,6 +2,9 @@
 
 Lens template with Jekyll automation.
 
+Lens template: https://html5up.net
+Automation: https://mwilczek-net.github.io
+
 # Lens README:
 
 Lens by HTML5 UP
