@@ -18,5 +18,5 @@ compress_html:
 # Host domain
 url: "https://mwilczek-net.github.io/"
 
-# From domain root
+# URL from domain root
 baseurl: "/lens-on-jekyll"
