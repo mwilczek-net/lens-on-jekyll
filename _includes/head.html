@@ -16,9 +16,9 @@
 {% if page.bg %}
   <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
   <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
-{% else %}
-  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/max-nelson-492729-unsplash.jpg">
-  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/max-nelson-492729-unsplash.jpg">
+{% elseif site.defaultSocialMediaImage %}
+  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ site.defaultSocialMediaImage }}">
+  <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ site.defaultSocialMediaImage }}">
 {% endif %}
 
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
