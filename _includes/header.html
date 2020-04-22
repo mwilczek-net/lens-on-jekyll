@@ -4,9 +4,9 @@
   <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
   <ul class="icons">
     {% if site.socialMedia %}
-      {% for socialMedia in site.socialMedia %}
-        {% if socialMedia.url %}
-          <li><a href="socialMedia.url" class="icon {{ socialMedia.icon }}" target="_blank"><span class="label">Github</span></a></li>
+      {% for socialMedium in site.socialMedia %}
+        {% if socialMedium[1].url %}
+          <li><a href="{{ socialMedium[1].url }}" class="icon {{ socialMedium[1].icon }}" target="_blank"><span class="label">{{ socialMedium[0] }}</span></a></li>
         {% endif %}
       {% endfor %}
     {% endif %}
