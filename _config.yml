@@ -2,7 +2,7 @@
 title: Lens by HTML5 UP | Jekyll automation by mwilczek-net.github.io
 name: Lens template with Jekyll
 description: Lens template build powerred with Jekyll engine
-defaultSocialMediaImage:
+defaultSocialMediaImage: "01.jpg"
 
 socialMedia:
   Twitter:
@@ -21,8 +21,8 @@ socialMedia:
     url: "http://mwilczek.net"
     icon: "solid fa-globe"
 
-
-images:
+thumbs: "/images/thumbs/"
+images: "/images/fulls/"
 
 # Build settings
 markdown: kramdown

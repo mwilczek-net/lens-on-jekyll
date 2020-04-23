@@ -1,12 +1,12 @@
 <section id="thumbnails">
   {% for photo in page.photos %}
     <article>
-      <a class="thumbnail" href="images/fulls/{{ photo[0] }}" data-position="left center"><img src="images/thumbs/{{ photo[0] }}" alt="{{ photo[1].title }}" /></a>
+      <a class="thumbnail" href="{{ site.baseurl }}{{ site.images }}{{ photo[0] }}" data-position="left center"><img src="{{ site.baseurl }}{{ site.thumbs }}{{ photo[0] }}" alt="{{ photo[1].title }}" /></a>
       <h2>{{ photo[1].title }}</h2>
       <p>
         {{ photo[1].description }}
         <br>
-        <a href="images/fulls/{{ photo[0] }}" target="_blank">Full image</a>
+        <a href="{{ site.baseurl }}{{ site.images }}{{ photo[0] }}" target="_blank">Full image</a>
       </p>
     </article>
   {% endfor %}
