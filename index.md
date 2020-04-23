@@ -1,7 +1,7 @@
 ---
 layout: default
-summary: "Summary for main page"
 title: Lens template
+summary: "Summary for main page"
 
 ---
 
