@@ -991,6 +991,7 @@ input, select, textarea {
 				#thumbnails article .thumbnail img {
 					display: block;
 					width: 100%;
+					border: 3px solid white;
 				}
 
 				#thumbnails article .thumbnail:before {
