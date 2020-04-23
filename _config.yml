@@ -26,6 +26,7 @@ images:
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
 
 # Theme settings
 compress_html:
