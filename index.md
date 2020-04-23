@@ -44,6 +44,6 @@ photos:
 
 Index page with list of galleries.
 
-Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a>
+Just another fine responsive site template by [HTML5 UP](http://html5up.net">)
 
-Automated with Jekyll by <a href="https://mwilczek-net.github.io/"</a>
+Automated with Jekyll by [mwilczek.net](https://mwilczek-net.github.io/)
