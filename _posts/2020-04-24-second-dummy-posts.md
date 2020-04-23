@@ -2,7 +2,7 @@
 layout: post
 summary: Etiam ac ligula velit. Mauris convallis congue orci ac imperdiet. Duis imperdiet nunc in leo gravida suscipit.
 title: Lorem ipsum dolor sit amet
-date: 2020-04-23
+date: 2020-04-24
 coverPhoto: "02.jpg"
 photos:
   "02.jpg":
