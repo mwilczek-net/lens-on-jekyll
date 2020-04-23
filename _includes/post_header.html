@@ -1,4 +1,7 @@
 <header id="header">
+  {% if page.id != 'index' %}
+    <p><a href="{{ site.baseurl }}">Home Page</a><p>
+  {% endif %}
   <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   {{ content }}
   <ul class="icons">
