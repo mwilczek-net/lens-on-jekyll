@@ -1,7 +1,7 @@
 
 <header id="header">
-  <h1>Lens</h1>
-  <p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+  <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+  {{ content }}
   <ul class="icons">
     {% if site.socialMedia %}
       {% for socialMedium in site.socialMedia %}

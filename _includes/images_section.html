@@ -1,0 +1,9 @@
+<section id="thumbnails">
+  {% for photo in page.photos %}
+    <article>
+      <a class="thumbnail" href="images/fulls/{{ photo[0] }}" data-position="left center"><img src="images/thumbs/{{ photo[0] }}" alt="{{ photo[1].title }}" /></a>
+      <h2>{{ photo[1].title }}</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </article>
+  {% endfor %}
+</section>
