@@ -7,6 +7,6 @@ summary: "Summary for main page"
 
 Index page with list of galleries.
 
-Just another fine responsive site template by [HTML5 UP](http://html5up.net)
+Just another fine responsive site template by [HTML5 UP](http://html5up.net){:target="_blank"}
 
-Automated with Jekyll by [mwilczek.net](https://mwilczek-net.github.io/)
+Automated with Jekyll by [mwilczek.net](https://mwilczek-net.github.io/){:target="_blank"}
