@@ -66,6 +66,12 @@ var main = (function($) { var _ = {
 	$toggle: null,
 
 	/**
+	 * Toggle contain.
+	 * @var {jQuery}
+	 */
+	$toggleContain: null,
+
+	/**
 	 * Nav (next).
 	 * @var {jQuery}
 	 */
@@ -169,6 +175,7 @@ var main = (function($) { var _ = {
 				.appendTo(_.$main);
 
 			_.$toggle = $('.toggle');
+			_.$toggleContain = $('.toggle-contain');
 
 	},
 
@@ -331,6 +338,10 @@ var main = (function($) { var _ = {
 			_.$toggle.on('click', function() {
 				_.toggle();
 			});
+
+			_.$toggleContain.on('click', function() {
+				$('body').toggleClass('contain-image');
+			})
 
 			// Prevent event from bubbling up to "hide event on tap" event.
 				_.$toggle.on('touchend', function(event) {
