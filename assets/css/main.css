@@ -1168,6 +1168,21 @@ input, select, textarea {
 				background-position: calc(100% - 0.75em) 0.75em;
 			}
 
+			#viewer .inner .toggle-contain {
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				position: absolute;
+				top: 0;
+				width: 4em;
+				height: 4em;
+				background-image: url("images/spinner.svg");
+				background-repeat: no-repeat;
+				background-size: 64px 64px;
+				cursor: pointer;
+				z-index: 1;
+				right: 0;
+				background-position: calc(100% - 0.75em) 0.75em;
+			}
+
 			#viewer .inner .nav-next,
 			#viewer .inner .nav-previous {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
