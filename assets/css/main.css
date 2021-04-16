@@ -869,7 +869,7 @@ input, select, textarea {
 				top: 4em;
 				width: 4em;
 				height: 4em;
-				background-image: url("images/spinner.svg");
+				background-image: url("images/contain-cover.svg");
 				background-repeat: no-repeat;
 				background-size: 32px 32px;
 				cursor: pointer;
@@ -1174,7 +1174,7 @@ input, select, textarea {
 				top: 4em;
 				width: 4em;
 				height: 4em;
-				background-image: url("images/spinner.svg");
+				background-image: url("images/contain-cover.svg");
 				background-repeat: no-repeat;
 				background-size: 64px 64px;
 				cursor: pointer;
@@ -1307,7 +1307,7 @@ input, select, textarea {
 			}
 
 			body.fullscreen #viewer .inner .toggle-contain {
-				background-image: url("images/spinner.svg");
+				background-image: url("images/contain-cover.svg");
 			}
 
 		body.is-preload-1 #viewer {
@@ -1347,7 +1347,7 @@ input, select, textarea {
 					-webkit-transition: opacity 0.75s ease;
 					-ms-transition: opacity 0.75s ease;
 					transition: opacity 0.75s ease;
-					background-image: url("images/spinner.svg");
+					background-image: url("images/contain-cover.svg");
 					opacity: 1;
 					right: 0;
 				}
