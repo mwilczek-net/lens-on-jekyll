@@ -1171,7 +1171,7 @@ input, select, textarea {
 			#viewer .inner .toggle-contain {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				position: absolute;
-				top: 0;
+				top: 6em;
 				width: 4em;
 				height: 4em;
 				background-image: url("images/spinner.svg");
