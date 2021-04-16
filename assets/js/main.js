@@ -340,7 +340,7 @@ var main = (function($) { var _ = {
 			});
 
 			_.$toggleContain.on('click', function() {
-				$('body').toggleClass('contain-image');
+				_.$body.toggleClass('contain-image');
 			})
 
 			// Prevent event from bubbling up to "hide event on tap" event.
