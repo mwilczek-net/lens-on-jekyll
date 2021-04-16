@@ -863,6 +863,22 @@ input, select, textarea {
 			left: 0;
 		}
 
+			#main .toggle-contain {
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				position: absolute;
+				top: 6em;
+				width: 4em;
+				height: 4em;
+				background-image: url("images/spinner.svg");
+				background-repeat: no-repeat;
+				background-size: 32px 32px;
+				cursor: pointer;
+				display: none;
+				z-index: 1;
+				background-position: 0.5em 0.5em;
+				left: 0;
+			}
+
 		body.fullscreen #main {
 			visibility: hidden;
 			right: -22.5em;
@@ -1308,6 +1324,16 @@ input, select, textarea {
 					transition: opacity 0.75s ease;
 					background-image: url("images/open.svg");
 					opacity: 0;
+					right: 0;
+				}
+
+				#viewer .inner .toggle-contain {
+					-moz-transition: opacity 0.75s ease;
+					-webkit-transition: opacity 0.75s ease;
+					-ms-transition: opacity 0.75s ease;
+					transition: opacity 0.75s ease;
+					background-image: url("images/spinner.svg");
+					opacity: 1;
 					right: 0;
 				}
 
