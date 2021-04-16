@@ -152,6 +152,7 @@ var main = (function($) { var _ = {
 						'<div class="nav-next"></div>' +
 						'<div class="nav-previous"></div>' +
 						'<div class="toggle"></div>' +
+						'<div class="toggle-contain"></div>' +
 					'</div>' +
 				'</div>'
 			).appendTo(_.$body);

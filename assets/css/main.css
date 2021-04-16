@@ -1275,6 +1275,10 @@ input, select, textarea {
 				background-image: url("images/open.svg");
 			}
 
+			body.fullscreen #viewer .inner .toggle-contain {
+				background-image: url("images/spinner.svg");
+			}
+
 		body.is-preload-1 #viewer {
 			opacity: 0;
 		}
