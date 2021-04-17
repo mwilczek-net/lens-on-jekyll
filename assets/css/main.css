@@ -1304,7 +1304,7 @@ input, select, textarea {
 		}
 
 		body #viewer .slide .contain-image {
-			transition: opacity: 2s;
+			transition: opacity: 3s;
 			opacity: 0 !important;
 			background-size: contain;
 		}
