@@ -1294,7 +1294,7 @@ input, select, textarea {
 		}
 
 		body #viewer .slide .cover-image {
-			transition: filter 2s;
+			transition: filter 0.5s;
 		}
 
 		body.contain-image #viewer .slide .contain-image {
@@ -1304,7 +1304,6 @@ input, select, textarea {
 		}
 
 		body #viewer .slide .contain-image {
-			transition: opacity: 3s;
 			opacity: 0 !important;
 			background-size: contain;
 		}
