@@ -171,7 +171,7 @@ var main = (function($) { var _ = {
 			_.$main = $('#main');
 
 		// Toggle.
-			$('<div class="toggle"></div>')
+			$('<div class="toggle"></div><div class="toggle-contain"></div>')
 				.appendTo(_.$main);
 
 			_.$toggle = $('.toggle');

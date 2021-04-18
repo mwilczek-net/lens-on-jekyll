@@ -866,10 +866,11 @@ input, select, textarea {
 			#main .toggle-contain {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				position: absolute;
-				top: 4em;
+				top: 0em;
+				left: 4em;
 				width: 4em;
 				height: 4em;
-				background-image: url("images/contain-cover.svg");
+				background-image: url("images/contain-cover-alt.svg");
 				background-repeat: no-repeat;
 				background-size: 32px 32px;
 				cursor: pointer;
