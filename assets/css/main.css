@@ -877,7 +877,6 @@ input, select, textarea {
 				display: none;
 				z-index: 1;
 				background-position: 0.5em 0.5em;
-				left: 0;
 			}
 
 		body.fullscreen #main {
