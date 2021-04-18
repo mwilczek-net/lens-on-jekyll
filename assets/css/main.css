@@ -1387,6 +1387,10 @@ input, select, textarea {
 				background-image: url("images/open-small.svg");
 			}
 
+			body.fullscreen #viewer .inner .toggle-contain {
+				background-image: url("images/contain-cover.svg");
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
