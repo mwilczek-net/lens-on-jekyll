@@ -1290,11 +1290,11 @@ input, select, textarea {
 			}
 
 		body.contain-image #viewer .slide .cover-image {
-			/* filter: blur(5px) brightness(0.6) saturate(0.7); */
+			filter: blur(5px) brightness(0.6) saturate(0.7);
 		}
 
 		body #viewer .slide .cover-image {
-			/* transition: filter 0.5s; */
+			transition: filter 0.5s;
 		}
 
 		body.contain-image #viewer .slide .contain-image {
