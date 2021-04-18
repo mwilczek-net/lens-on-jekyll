@@ -1294,20 +1294,20 @@ input, select, textarea {
 		}
 
 		body #viewer .slide .cover-image {
-			transition: filter 0.5s;
+			/* transition: filter 0.5s; */
 		}
 
 		body.contain-image #viewer .slide .contain-image {
-			/* filter: drop-shadow(0px 0px 40px #000000) opacity(1);
+			filter: drop-shadow(0px 0px 40px #000000) opacity(1);
 			background-size: contain;
 			z-index: 0;
-			display: block; */
+			display: block;
 		}
 
 		body #viewer .slide .contain-image {
-			/* filter: opacity(0);
+			filter: opacity(0);
 			background-size: contain;
-			z-index: -1; */
+			z-index: -1;
 			display: none;
 		}
 
