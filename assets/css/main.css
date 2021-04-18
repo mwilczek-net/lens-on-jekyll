@@ -1388,7 +1388,7 @@ input, select, textarea {
 			}
 
 			body.fullscreen #viewer .inner .toggle-contain {
-				background-image: url("images/contain-cover.svg");
+				background-image: url("images/contain-cover-small.svg");
 			}
 
 		}
