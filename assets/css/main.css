@@ -1298,13 +1298,13 @@ input, select, textarea {
 		}
 
 		body.contain-image #viewer .slide .contain-image {
-			filter: drop-shadow(0px 0px 40px #000000);
+			filter: drop-shadow(0px 0px 40px #000000) opacity(1);
 			background-size: contain;
 			opacity: 1 !important;
 		}
 
 		body #viewer .slide .contain-image {
-			opacity: 0 !important;
+			filter: opacity(0);
 			background-size: contain;
 		}
 
