@@ -1377,6 +1377,10 @@ input, select, textarea {
 				background-size: 32px 32px;
 			}
 
+			#viewer .inner .toggle-contain {
+				background-size: 32px 32px;
+			}
+
 			#viewer .inner .nav-next,
 			#viewer .inner .nav-previous {
 				background-image: url("images/arrow-small.svg");
