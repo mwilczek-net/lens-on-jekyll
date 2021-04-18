@@ -1301,12 +1301,14 @@ input, select, textarea {
 			filter: drop-shadow(0px 0px 40px #000000) opacity(1);
 			background-size: contain;
 			z-index: 0;
+			display: block;
 		}
 
 		body #viewer .slide .contain-image {
 			filter: opacity(0);
 			background-size: contain;
 			z-index: -1;
+			display: none;
 		}
 
 		body.fullscreen #viewer {
